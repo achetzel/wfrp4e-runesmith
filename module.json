@@ -22,7 +22,7 @@
          "name": "journalentries-rs",
          "label": "Career Description (Runesmith)",
          "path": "packs/journalentries-rs.db",
-         "entity": "Item",
+         "entity": "JournalEntry",
          "module": "wfrp4e-runesmith",
          "system": "wfrp4e",
          "private": false
