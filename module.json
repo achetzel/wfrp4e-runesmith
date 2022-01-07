@@ -1,12 +1,43 @@
 {
    "name": "wfrp4e-runesmith",
-   "title": "Runesmith [WFRP4]",
+   "title": "[WFRP4] Runesmith",
    "description": "An interpretation of the 2nd Ed Runesmith from Realms of Sorcery for 4th Ed.",
    "author": "achetzel",
-   "systems": ["wfrp4e"],
+   "system": ["wfrp4e"],
    "version": "1.0.0",
    "minimumCoreVersion": "0.9.0",
-   "compatibleCoreVersion":"0.8.8",
+   "compatibleCoreVersion":"0.9.0",
+   "packs": [
+      {
+         "name": "career-rs",
+         "label": "Career (Runesmith)",
+         "path": "packs/career-rs.db",
+         "entity": "Item",
+         "module": "wfrp4e-runesmith",
+         "system": "wfrp4e",
+         "tags": ["career"],
+         "private": false
+      },
+      {
+         "name": "journalentries-rs",
+         "label": "Career Description (Runesmith)",
+         "path": "packs/journalentries-rs.db",
+         "entity": "Item",
+         "module": "wfrp4e-runesmith",
+         "system": "wfrp4e",
+         "private": false
+      },
+      {
+         "name": "runes-rs",
+         "label": "Runes (Runesmith)",
+         "path": "packs/runes-rs.db",
+         "entity": "Item",
+         "module": "wfrp4e-runesmith",
+         "system": "wfrp4e",
+         "tags": ["runes"],
+         "private": false
+      }
+   ],
    "url": "https://github.com/achetzel/wfrp4e-runesmith",
    "manifest": "https://raw.githubusercontent.com/achetzel/wfrp4e-runesmith/main/module.json",
    "download": "https://github.com/achetzel/wfrp4e-runesmith/archive/main.zip"
