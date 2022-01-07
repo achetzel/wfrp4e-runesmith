@@ -1,0 +1,13 @@
+{
+   "name": "wfrp4e-runesmith",
+   "title": "Runesmith [WFRP4]",
+   "description": "An interpretation of the 2nd Ed Runesmith from Realms of Sorcery for 4th Ed.",
+   "author": "achetzel",
+   "systems": ["wfrp4e"],
+   "version": "1.0.0",
+   "minimumCoreVersion": "0.9.0",
+   "compatibleCoreVersion":"0.8.8",
+   "url": "https://github.com/achetzel/wfrp4e-runesmith",
+   "manifest": "https://raw.githubusercontent.com/achetzel/wfrp4e-runesmith/main/module.json",
+   "download": "https://github.com/achetzel/wfrp4e-runesmith/archive/main.zip"
+ }
