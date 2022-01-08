@@ -36,6 +36,26 @@
          "system": "wfrp4e",
          "tags": ["runes"],
          "private": false
+      },
+      {
+         "name": "skills-rs",
+         "label": "Skills (Runesmith)",
+         "path": "packs/skills-rs.db",
+         "entity": "Item",
+         "module": "wfrp4e-runesmith",
+         "system": "wfrp4e",
+         "tags": ["skills"],
+         "private": false
+      },
+      {
+         "name": "talents-rs",
+         "label": "Talents (Runesmith)",
+         "path": "packs/talents-rs.db",
+         "entity": "Item",
+         "module": "wfrp4e-runesmith",
+         "system": "wfrp4e",
+         "tags": ["talents"],
+         "private": false
       }
    ],
    "styles": [
