@@ -1,5 +1,8 @@
 Hooks.on('renderDialog', (_app: ItemSheet, html: JQuery) => {
 
+  console.log("hook found");
+  console.log(html);
+
   let textContainer = document.querySelectorAll('.app.window-app.dialog');
   let length = textContainer.length;
 
@@ -14,7 +17,4 @@ Hooks.on('renderDialog', (_app: ItemSheet, html: JQuery) => {
       }
     }
   }
-
-  console.log(html);
-
 });
