@@ -1,5 +1,5 @@
-npm run build
+yarn run build
 mkdir -p ./dist/templates
-mkdir -p ./dist/styles
+mkdir -p ./dist/css
 cp ./src/templates/* ./dist/templates/
-cp ./src/styles/* ./dist/styles/
+cp ./src/css/* ./dist/styles/
