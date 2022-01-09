@@ -7,6 +7,13 @@
    "version": "1.0.0",
    "minimumCoreVersion": "0.9.0",
    "compatibleCoreVersion":"0.9.0",
+   "esmodules": ["main.js"],
+   "dependencies": [
+      {
+         "name": "wfrp4e-core",
+         "type": "module"
+      }
+   ],
    "packs": [
       {
          "name": "career-rs",
