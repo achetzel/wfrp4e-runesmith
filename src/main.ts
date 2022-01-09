@@ -1,4 +1,4 @@
-Hooks.on('renderDialog', (_app: ItemSheet, html: JQuery) => {
+Hooks.on('renderItemDirectory', (_app: ItemSheet, html: JQuery) => {
 
   console.log("hook found");
   console.log(html);
