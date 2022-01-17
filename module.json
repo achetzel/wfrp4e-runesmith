@@ -7,7 +7,6 @@
    "version": "1.0.0",
    "minimumCoreVersion": "0.9.0",
    "compatibleCoreVersion":"0.9.0",
-   "esmodules": ["scripts/main.js"],
    "dependencies": [
       {
          "name": "wfrp4e-core",
@@ -66,7 +65,8 @@
       }
    ],
    "styles": [
-      "./css/career-desc.css"
+      "./css/career-desc.css",
+      "./css/add-rune-item.css"
    ],
    "url": "https://github.com/achetzel/wfrp4e-runesmith",
    "manifest": "https://raw.githubusercontent.com/achetzel/wfrp4e-runesmith/main/module.json",
