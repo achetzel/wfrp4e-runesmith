@@ -1,0 +1,5 @@
+.app.window-app.sheet.item-sheet.rune-sheet {
+    border-image: url(../ui/item-sheet-red.webp);
+    border-image-slice: 59;
+    border-image-width: 59px;
+    border-image-outset: 0px;
